@@ -8,7 +8,7 @@ import numpy as np
 from tqdm import tqdm
 from utils.load_model import load_victim
 from utils.load_data import load_data, normalzie
-from utils.predict import make_print_to_file, test, rob_test
+from utils.predict import make_print_to_file, test, rob_test, accuracy
 from model.linear import NonLinearClassifier
 from utils.gr import genetic_regularization
 
